@@ -1,0 +1,51 @@
+html {
+  background-image: url('2.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+h1 {
+  color:#fff;
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+}
+
+.box {
+  border: 5px;
+  border-radius: 10px;
+  width: 740px;
+  height: 300px;
+  
+  background: #fff;
+  padding: 20px;
+  margin: 2% auto 0;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  border: 1px solid;
+  border-color: #360272;
+}
+
+td, th{
+  border: 1px solid;
+  border-color: #360272;
+  text-align: center;
+  padding: 6px;
+}
+
+.movie {
+  color: #fff;
+}
+
+tbody {
+  color: #360272;
+}
+
+tr:nth-child(even) {   /* alternate colouring - nth-child*/
+  background-color: #360272;
+  color: #fff;
+}

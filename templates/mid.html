@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='mid.css') }}">
+  <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+  <div class="book">
+    Booking for {{value[0][0]}}...
+  </div>
+  <br>
+  
+  <div class="details">
+    Enter number of tickets & personal details below
+  </div>
+
+  <div class="form">
+    <form action="/done" method="post">
+      <strong>Tickets</strong> <br>
+      <input type="number" id="tickets" name="tickets" max=7 min=1 value=1>
+      <br>
+      <br>
+      <strong>Name</strong> <br>
+      <input type="text" id="name" name="name" placeholder="Enter name">
+      <br>
+      <br>
+      <strong>Email</strong> 
+      <br>
+      <input type="email" id="email" name='mail' placeholder="Enter email" required>
+      <br>
+      <br>
+      <strong>Mobile</strong>
+      <input id="phone" type="tel" name="phone" required>
+      <br>
+      <br>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+<script src="{{url_for('static', filename='mid.js')}}"></script>
+</html>

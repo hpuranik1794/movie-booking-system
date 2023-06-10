@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+
+<body>
+  <div class="get-started">
+    
+    <p class="wakanda">
+      <strong>Welcome to</strong>
+      <br>
+      <strong>~ Wakanda Cinemas ~</strong>
+    </p>
+    <p class="search">
+      <strong>Book your tickets now!</strong>
+    </p>
+    <button class="button" type="button" onclick="window.location.href='{{ url_for('movies') }}'">
+      <strong>Search &#x1F50D</strong>
+    </button>
+    <!-- <div class="bp">
+      <img src="bp1.jpg" alt="Black Panther">
+    </div> -->
+  </div>
+
+</body>
+</html>

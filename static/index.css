@@ -1,0 +1,46 @@
+body {
+  background-image: url('2.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:#360272;
+}
+
+.get-started {
+  border: 5px;
+  border-radius: 10px;
+  width: 300px;
+  height: 290px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+  background: #fff;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+
+.wakanda, .search {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 30px;
+  color: #360272;
+}
+
+.search {
+  font-size: 22px;
+  color: #360272;
+}
+
+.button {
+  background-color:#360272;
+  border-radius: 10px;
+  border-color: #360272;
+  width:200px;
+  color:#fff;
+  font-size:20px;
+  padding:15px;
+  text-align: center;
+  margin:10px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 25px;
+}

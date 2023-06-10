@@ -1,0 +1,21 @@
+html {
+  background-image: url('2.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%, 100%;
+  color:#fff;
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+}
+
+.confirm-box {
+  border: 5px;
+  border-radius: 10px;
+  width: 300px;
+  height: 325px;
+  background-color: #fff;
+  color: #360272;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+  font-size: 12px;
+}

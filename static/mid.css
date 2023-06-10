@@ -1,0 +1,45 @@
+body {
+  background-image: url('2.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.book {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  font-size: 40px;
+  margin: 2%;
+}
+
+.details {
+  font-family: Copperplate, Papyrus, fantasy;
+  text-align: center;
+  font-size: 30px;
+}
+
+.form {
+  border: 5px;
+  border-radius: 10px;
+  width: 210px;
+  height: 250px;
+  color: #000;
+  background: #fff;
+  padding: 20px;
+  margin: 2% auto 0;
+  text-align: center;
+}
+
+#name {
+  width: 150px;
+}
+
+#phone {
+  width: 170px;
+}
+
+#submit {
+  background-color: #360272;
+  border-radius: 2px;
+  color: #fff;
+}
